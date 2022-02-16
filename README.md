@@ -13,6 +13,6 @@ The three data files are loaded into dataFrames. Using regex and python, unneces
 
 The dataFrames are then merged and duplicate columns are removed.
 
-Finally the merged dataFrame is loaded into a postgres "movie_data" database using SQLAlchemy.  The raw ratings .csv file containing 26,024,289 is loaded into postgres as well. 
+Finally the merged dataFrame is loaded into a postgres "movie_data" database using SQLAlchemy.  The raw ratings .csv file containing 26,024,289 records is loaded into postgres as well. 
 
 
